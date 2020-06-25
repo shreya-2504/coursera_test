@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>Psuedo Selector</Title>
+<style>
+header li{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    margin-bottom: 1px;
+    width: 200px;
+    text-align: center;
+}
+a:hover, a:active{
+    background-color: red;
+    color:purple;
+}
+
+header li:nth-child(3){
+    font-size: 24px;
+}
+section div:nth-child(odd){
+    background-color: gray;
+    
+}
+section div:nth-child(4):hover{
+    background-color: green;
+    cursor: pointer;
+}
+div, span{
+    background-color: blue;
+}
+</style>
+    </head>
+    <body>
+<h1>Pseudo Class Selectos...!!</h1>
+<header>
+<ul>
+    <li>
+        <a href="https://jsfiddle.net/" target="_blank" title="helpful online editor">Online Editor</a> 
+    </li>
+    <li>
+        <a href="https://codepen.io/" target="_blank">https://codepen.io/ </a>
+    </li>
+    <li>
+        <a href="https://validator.w3.org/" target="_blank"> html validator </a>
+    </li>
+</ul>
+
+</header>
+<section>
+<div>Div1</div>
+<div>Div2</div>
+<div>Div3</div>
+<div>Div4</div>
+<div>Div5</div>
+<div>Div6</div>
+<div>Div7</div>
+
+<div>Div8</div><div>Div9</div>
+<div>Div10</div>
+</section>
+
+<div>hello</div>
+<span>world</span>
+    </body>
+</html>
